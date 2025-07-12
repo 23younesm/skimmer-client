@@ -1,4 +1,4 @@
-git clone https://github.com/23younesm/skimmer-client
 cd /etc/skimmer-client
+git clone https://github.com/23younesm/skimmer-client
 sudo docker build -t skimmer-client .
 sudo docker run -it --network=host skimmer-client
